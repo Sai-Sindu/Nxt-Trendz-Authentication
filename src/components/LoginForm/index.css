@@ -1,0 +1,88 @@
+/* Write your CSS code here */
+.login-form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  height: 100vh;
+}
+
+.login-form-img {
+  width: 45%;
+  height: 300px;
+}
+
+.login-form-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+
+.login-form-logo {
+  height: 60px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.label-text {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.input-card {
+  padding: 10px;
+  background-color: #e6f6ff;
+  border: 1px solid #d7dfe9;
+  width: 90%;
+  outline: none;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.submit-button {
+  background-color: #0b69ff;
+  outline: none;
+  cursor: pointer;
+  border-width: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 12px;
+  width: 100%;
+  align-self: center;
+  color: #ffffff;
+  font-size: 15px;
+}
+.error-msg {
+  color: #ff0b37;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-form-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .login-form-img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+  }
+}
